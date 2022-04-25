@@ -1,0 +1,1205 @@
+{
+  "Abundance": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Abundance"
+  },
+  "Abundance_0": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Abundance"
+  },
+  "Accession": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession"
+  },
+  "Accession number": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession number"
+  },
+  "Accession_0": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession"
+  },
+  "Accession_1": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession"
+  },
+  "Accession_2": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession"
+  },
+  "Accession_3": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession"
+  },
+  "Accession_4": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession"
+  },
+  "Accession_5": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession"
+  },
+  "Accession_6": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession"
+  },
+  "Accession_7": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession"
+  },
+  "Accession_8": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession"
+  },
+  "CallbackList": {
+    "_type": "echo.containers.CallbackList",
+    "values": [
+      "ScatterLayerState",
+      "ScatterLayerState_0",
+      "ScatterLayerState_1",
+      "ScatterLayerState_2",
+      "ScatterLayerState_3"
+    ]
+  },
+  "CategoricalComponent": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 1
+  },
+  "Cell": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Cell"
+  },
+  "Cell number": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Cell number"
+  },
+  "Cell number_0": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Cell number"
+  },
+  "Cell number_1": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Cell number"
+  },
+  "Cell number_2": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Cell number"
+  },
+  "Cell number_3": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Cell number"
+  },
+  "Component": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 2
+  },
+  "Component_0": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 3
+  },
+  "Component_1": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 4
+  },
+  "Component_2": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 5
+  },
+  "Component_3": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 6
+  },
+  "CoordinateComponent": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 0,
+    "world": false
+  },
+  "DataCollection": {
+    "_protocol": 4,
+    "_type": "glue.core.data_collection.DataCollection",
+    "cids": [
+      "Pixel Axis 0 [x]",
+      "Accession",
+      "Accession number",
+      "Cell",
+      "Cell number",
+      "Abundance",
+      "Log abundance"
+    ],
+    "components": [
+      "CoordinateComponent",
+      "CategoricalComponent",
+      "Component",
+      "Component_0",
+      "Component_1",
+      "Component_2",
+      "Component_3"
+    ],
+    "data": [
+      "Log_10_output_400_proteins_in_more_than_100_cells:Sheet1"
+    ],
+    "groups": [
+      "Subset 1",
+      "Subset 2",
+      "Subset 3",
+      "Subset 4"
+    ],
+    "links": [],
+    "subset_group_count": 4
+  },
+  "LinearSegmentedColormap": {
+    "_type": "matplotlib.colors.LinearSegmentedColormap",
+    "cmap": "YlGnBu"
+  },
+  "LinearSegmentedColormap_0": {
+    "_type": "matplotlib.colors.LinearSegmentedColormap",
+    "cmap": "gray"
+  },
+  "ListedColormap": {
+    "_type": "matplotlib.colors.ListedColormap",
+    "cmap": "inferno"
+  },
+  "LoadLog": {
+    "_protocol": 2,
+    "_type": "glue.core.data_factories.helpers.LoadLog",
+    "factory": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.data_factories.helpers.auto_data"
+    },
+    "force_coords": false,
+    "kwargs": [
+      []
+    ],
+    "path": "Log_10_output_400_proteins_in_more_than_100_cells.xlsx"
+  },
+  "Log abundance": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Log abundance"
+  },
+  "Log abundance_0": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Log abundance"
+  },
+  "Log10": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Log10"
+  },
+  "Log_10_output_400_proteins_in_more_than_100_cells:Sheet1": {
+    "_key_joins": [],
+    "_protocol": 5,
+    "_type": "glue.core.data.Data",
+    "components": [
+      [
+        "Pixel Axis 0 [x]",
+        "CoordinateComponent"
+      ],
+      [
+        "Accession",
+        "CategoricalComponent"
+      ],
+      [
+        "Accession number",
+        "Component"
+      ],
+      [
+        "Cell",
+        "Component_0"
+      ],
+      [
+        "Cell number",
+        "Component_1"
+      ],
+      [
+        "Abundance",
+        "Component_2"
+      ],
+      [
+        "Log abundance",
+        "Component_3"
+      ]
+    ],
+    "label": "Log_10_output_400_proteins_in_more_than_100_cells:Sheet1",
+    "meta": {
+      "_type": "collections.OrderedDict",
+      "contents": {}
+    },
+    "primary_owner": [
+      "Pixel Axis 0 [x]",
+      "Accession",
+      "Accession number",
+      "Cell",
+      "Cell number",
+      "Abundance",
+      "Log abundance"
+    ],
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.8,
+      "color": "#595959",
+      "linestyle": "solid",
+      "linewidth": 1,
+      "marker": "o",
+      "markersize": 3
+    },
+    "subsets": [
+      "Subset 1_0",
+      "Subset 2_0",
+      "Subset 3_0",
+      "Subset 4_0"
+    ],
+    "uuid": "5a7164a1-2534-43ba-9e09-6702e58fbd43"
+  },
+  "NearestNeighborROI": {
+    "_type": "glue_vispy_viewers.scatter.scatter_toolbar.NearestNeighborROI",
+    "max_radius": 5.0,
+    "x": 511.0,
+    "y": 705.0
+  },
+  "NearestNeighborROI_0": {
+    "_type": "glue_vispy_viewers.scatter.scatter_toolbar.NearestNeighborROI",
+    "max_radius": 5.0,
+    "x": 500.0,
+    "y": 604.0
+  },
+  "Pixel Axis 0 [x]": {
+    "_type": "glue.core.component_id.PixelComponentID",
+    "axis": 0,
+    "label": "Pixel Axis 0 [x]"
+  },
+  "PolygonalROI": {
+    "_type": "glue.core.roi.PolygonalROI",
+    "vx": {
+      "_type": "numpy.ndarray",
+      "data": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGk0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDE4NywpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAq9AQAAuAEAAKoBAACQAQAAcQEAAFsBAABLAQAAPAEAADgBAAA0AQAAMQEAADEBAAAxAQAAMQEAADEBAAA1AQAAPAEAAEMBAABLAQAAUQEAAFkBAABmAQAAcQEAAHwBAACIAQAAkwEAAJwBAACoAQAAvwEAANcBAADtAQAAAQIAABMCAAAqAgAANQIAAEMCAABUAgAAZgIAAHUCAACBAgAAjwIAAJ4CAACyAgAA3AIAAOUCAADoAgAA7wIAAP0CAAAWAwAAMwMAAFcDAABxAwAAjgMAAMoDAADjAwAA9QMAAA8EAAAXBAAAHQQAAB8EAAAgBAAAIwQAACUEAAAoBAAALwQAADsEAABIBAAAVQQAAFwEAABnBAAAbwQAAHgEAAB+BAAAhQQAAIoEAACPBAAAlAQAAJsEAACjBAAAsgQAALoEAAC+BAAAwwQAAMUEAADJBAAAywQAAMsEAADLBAAAzQQAAM4EAADOBAAAzgQAAMsEAADDBAAAvQQAALsEAAC3BAAAsgQAAKwEAAClBAAAmQQAAIcEAAByBAAAWwQAAE0EAABDBAAAOwQAADQEAAAuBAAAKgQAACYEAAAjBAAAIwQAACEEAAAgBAAAIAQAACAEAAAgBAAAIAQAACAEAAAfBAAAHgQAAB4EAAAeBAAAHAQAABsEAAAWBAAAEAQAAAgEAAD9AwAA7gMAANsDAADEAwAArQMAAJUDAAB3AwAAVAMAADgDAAAaAwAADwMAAAcDAAAAAwAA8gIAAOcCAADcAgAA0gIAAMwCAADFAgAAvgIAALQCAAClAgAAmwIAAJICAACDAgAAcgIAAFkCAAAaAgAA+wEAAOkBAADhAQAA3gEAANsBAADYAQAA1wEAANYBAADUAQAAzwEAAMgBAAC/AQAAswEAAK0BAACrAQAAqgEAAKgBAAClAQAApQEAAKUBAAClAQAApQEAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAKQBAACkAQAA"
+    },
+    "vy": {
+      "_type": "numpy.ndarray",
+      "data": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGk0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDE4NywpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAq+AAAAwAAAAMsAAADaAAAA7QAAAP4AAAARAQAAOQEAAE4BAABjAQAAewEAAIYBAACRAQAAmgEAAKIBAADAAQAA0QEAAOABAADsAQAA9AEAAP8BAAANAgAAGQIAACMCAAAuAgAAMwIAADkCAAA+AgAAQwIAAEkCAABNAgAAVAIAAFkCAABfAgAAYwIAAGYCAABsAgAAcgIAAHQCAAB3AgAAfAIAAIECAACDAgAAiQIAAIkCAACJAgAAiQIAAIkCAACJAgAAiQIAAIkCAACJAgAAhQIAAHoCAAB3AgAAdQIAAHMCAABwAgAAbwIAAG4CAABtAgAAbAIAAGoCAABnAgAAZgIAAGYCAABkAgAAYQIAAGACAABfAgAAXQIAAFcCAABSAgAASQIAAD4CAAA2AgAALwIAACQCAAAbAgAABAIAAPUBAADmAQAA1QEAAMgBAAC+AQAAswEAAKwBAACjAQAAlwEAAIsBAAB+AQAAaAEAAFgBAABHAQAAOgEAADIBAAApAQAAGwEAAAwBAAD9AAAA7wAAAOkAAADgAAAA2wAAANYAAADRAAAAzAAAAMYAAADAAAAAugAAALcAAACyAAAAsQAAAK8AAACrAAAAqgAAAKYAAACgAAAAnAAAAJkAAACXAAAAkwAAAJEAAACQAAAAjAAAAIsAAACHAAAAhAAAAIIAAACAAAAAfQAAAHwAAAB5AAAAdgAAAHMAAABzAAAAcwAAAHMAAABzAAAAcwAAAHMAAABzAAAAcwAAAHMAAABzAAAAdAAAAHgAAAB6AAAAfQAAAIMAAACJAAAAkAAAAJMAAACaAAAAoQAAAKgAAACyAAAAtwAAALgAAAC6AAAAugAAALoAAAC8AAAAvAAAALwAAAC8AAAAvAAAALwAAAC5AAAAtgAAALYAAAC1AAAAtQAAALIAAACyAAAAtQAAALYAAAC3AAAAuAAAALgAAAC5AAAAugAAALwAAAC+AAAAwgAAAMQAAADGAAAA"
+    }
+  },
+  "PolygonalROI_0": {
+    "_type": "glue.core.roi.PolygonalROI",
+    "vx": {
+      "_type": "numpy.ndarray",
+      "data": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGk0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDE4MywpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIArCAQAAwAEAAKQBAACSAQAAhAEAAH4BAAB7AQAAewEAAHkBAAB5AQAAeQEAAHcBAAB2AQAAdQEAAHUBAAB1AQAAdQEAAHUBAAB2AQAAdwEAAHgBAAB5AQAAeQEAAHwBAAB9AQAAgAEAAIABAACCAQAAgwEAAIYBAACHAQAAhwEAAIcBAACHAQAAhwEAAIcBAACHAQAAigEAAIsBAACOAQAAkAEAAJUBAACaAQAAngEAAKQBAACoAQAAqgEAAKsBAACuAQAAtwEAAMYBAADRAQAA2gEAAOABAADmAQAA7wEAAAECAAAdAgAAPQIAAGYCAAB3AgAAgAIAAIgCAACNAgAAkwIAAJwCAACqAgAAsQIAALkCAAC8AgAAwAIAAMsCAADXAgAA6wIAAAQDAAAgAwAAPAMAAFMDAABnAwAAdQMAAIEDAACRAwAArAMAAOADAAA0BAAASwQAAFsEAABjBAAAZwQAAGsEAABsBAAAbgQAAHEEAAB0BAAAfQQAAIIEAACIBAAAjgQAAJEEAACVBAAAlwQAAJsEAACbBAAAmwQAAJsEAACbBAAAmwQAAJ0EAACeBAAAoQQAAKEEAAChBAAAowQAAKMEAACjBAAAoAQAAJsEAACVBAAAjAQAAIUEAAB9BAAAcgQAAGUEAABaBAAATgQAAEUEAAA8BAAANAQAACgEAAARBAAAAAQAAPYDAADxAwAA7gMAAOkDAADgAwAA2wMAANIDAADRAwAAzgMAAMsDAADGAwAAwQMAALwDAAC2AwAAnwMAAI4DAAB6AwAAWwMAAEQDAAAsAwAAFwMAAAkDAAD9AgAA9AIAAOgCAADeAgAA0QIAALkCAACcAgAAhgIAAG8CAABpAgAAYQIAAFkCAABTAgAATwIAAEoCAABHAgAAQwIAADsCAAAsAgAAHgIAAA8CAAAHAgAA/QEAAPIBAADlAQAA3wEAAMoBAAC8AQAAuQEAALgBAAA="
+    },
+    "vy": {
+      "_type": "numpy.ndarray",
+      "data": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGk0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDE4MywpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAqvAAAAsQAAAMYAAADTAAAA3gAAAOQAAADpAAAA6gAAAO0AAADyAAAA9gAAAP4AAAAFAQAADwEAABkBAAAmAQAANQEAAEQBAABOAQAAWAEAAGQBAABtAQAAdQEAAIABAACGAQAAkgEAAJoBAACjAQAArwEAALkBAADAAQAAxwEAAM8BAADXAQAA3gEAAOgBAADtAQAA7wEAAPIBAAD5AQAA/QEAAAQCAAAMAgAAFQIAABwCAAAgAgAAIgIAACMCAAAoAgAAKwIAADECAAAzAgAANgIAADkCAAA7AgAAPwIAAEACAABBAgAAQQIAAD4CAAA9AgAAOgIAADkCAAA4AgAAOAIAADQCAAAwAgAALwIAACsCAAArAgAAKgIAACoCAAAqAgAAKgIAACoCAAAqAgAAKgIAACoCAAAqAgAAKgIAACoCAAAsAgAALwIAADMCAAAuAgAAKwIAACoCAAAqAgAAKgIAACwCAAAsAgAALAIAACsCAAAhAgAAEQIAAP8BAADwAQAA4wEAANMBAADGAQAAugEAAKsBAACfAQAAhgEAAHQBAABiAQAAUAEAAEABAAAzAQAAIwEAABkBAAAMAQAA+AAAAOsAAADWAAAAyAAAALwAAAC0AAAAqgAAAKEAAACYAAAAjwAAAIUAAACAAAAAfgAAAHwAAAB7AAAAegAAAHgAAAB4AAAAdQAAAHUAAAB1AAAAdQAAAHgAAAB7AAAAfQAAAIIAAACCAAAAggAAAIIAAACCAAAAggAAAIIAAACCAAAAggAAAIIAAACCAAAAggAAAIIAAACCAAAAggAAAIIAAACCAAAAggAAAIIAAACCAAAAggAAAIIAAACCAAAAggAAAIIAAACCAAAAgwAAAIUAAACIAAAAiQAAAIsAAACMAAAAjQAAAJAAAACUAAAAmwAAAKMAAACnAAAAqgAAAK0AAACuAAAArgAAAK4AAACwAAAAsAAAALEAAAA="
+    }
+  },
+  "PolygonalROI_1": {
+    "_type": "glue.core.roi.PolygonalROI",
+    "vx": {
+      "_type": "numpy.ndarray",
+      "data": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGk0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDMyOCwpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoGAgAABgIAAAQCAAD+AQAA9wEAAO0BAADnAQAA3wEAANcBAADRAQAAzwEAAMwBAADJAQAAxgEAAMEBAAC8AQAAugEAALkBAAC4AQAAuAEAALQBAACwAQAArAEAAKsBAACoAQAApgEAAKUBAACkAQAApAEAAKIBAACfAQAAnwEAAJ0BAACcAQAAmwEAAJsBAACbAQAAmgEAAJoBAACaAQAAlwEAAJYBAACVAQAAlQEAAJQBAACTAQAAkwEAAJMBAACTAQAAkwEAAJMBAACTAQAAkwEAAJMBAACTAQAAkwEAAJMBAACTAQAAkwEAAJMBAACTAQAAkwEAAJMBAACTAQAAkwEAAJMBAACTAQAAkwEAAJMBAACUAQAAlgEAAJcBAACXAQAAmgEAAJsBAACdAQAAngEAAKIBAACmAQAArAEAALcBAAC7AQAAwQEAAMMBAADJAQAAygEAAMwBAADQAQAA0wEAANcBAADbAQAA5wEAAPwBAAAGAgAAFgIAACoCAAA5AgAATgIAAGUCAAB2AgAAiQIAAJgCAACmAgAAuQIAAMgCAADUAgAA5QIAAPoCAAAMAwAAGAMAACcDAAA0AwAAOAMAAD4DAABDAwAASAMAAEwDAABPAwAAUwMAAFgDAABcAwAAYgMAAGcDAABpAwAAbQMAAHADAAB2AwAAgQMAAIUDAACIAwAAiQMAAIwDAACPAwAAkwMAAJgDAACjAwAApQMAAKcDAACtAwAAswMAALkDAADKAwAA1AMAANkDAADbAwAA3AMAAOADAADkAwAA6QMAAO8DAADyAwAA9gMAAPoDAAAABAAABgQAABAEAAAdBAAALAQAADwEAABDBAAARAQAAEgEAABNBAAAUwQAAFsEAABgBAAAZQQAAGgEAABrBAAAbAQAAHIEAAB5BAAAhgQAAJIEAACbBAAAngQAAJ8EAACgBAAAoQQAAKQEAACpBAAArgQAALMEAAC0BAAAtQQAALYEAAC2BAAAtgQAALYEAAC2BAAAtgQAALYEAAC2BAAAtgQAALQEAAC0BAAAtAQAALQEAACzBAAAswQAALMEAACzBAAAswQAALMEAACyBAAArgQAAKgEAACjBAAAoAQAAJ0EAACZBAAAlwQAAJYEAACVBAAAlAQAAJEEAACQBAAAjQQAAIcEAAB/BAAAcwQAAGUEAABZBAAATgQAAEkEAABFBAAAPwQAADkEAAA0BAAALQQAACcEAAAdBAAAFgQAAA0EAAACBAAA9QMAAO8DAADsAwAA6gMAAOkDAADkAwAA4AMAANkDAADRAwAAtwMAAJ0DAACJAwAAcwMAAF8DAABMAwAAOwMAAC0DAAAlAwAAGgMAABEDAAAFAwAA+AIAAO8CAADpAgAA6AIAAOYCAADjAgAA4QIAANoCAADZAgAA0wIAANECAADRAgAAzwIAAM0CAADNAgAAzQIAAMUCAAC2AgAArAIAAKECAACVAgAAiAIAAH0CAAB0AgAAbQIAAGgCAABnAgAAZQIAAGECAABeAgAAWgIAAFYCAABRAgAATgIAAEwCAABKAgAASQIAAEgCAABHAgAARQIAAEICAABAAgAAPwIAADgCAAAzAgAAMAIAACwCAAAnAgAAJQIAACMCAAAhAgAAHwIAAB4CAAAdAgAAHAIAABsCAAAaAgAAFQIAABQCAAATAgAAEgIAABACAAAPAgAADQIAAAwCAAALAgAACgIAAAgCAAAHAgAABgIAAAUCAAAEAgAA"
+    },
+    "vy": {
+      "_type": "numpy.ndarray",
+      "data": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGk0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDMyOCwpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApIAgAARwIAAEUCAABCAgAAQAIAAD0CAAA7AgAAOQIAADcCAAA0AgAANAIAADQCAAA2AgAAOwIAAEECAABFAgAARwIAAEgCAABIAgAASQIAAEoCAABNAgAATQIAAE4CAABPAgAAUAIAAFACAABRAgAAUgIAAFICAABUAgAAVgIAAFkCAABcAgAAYAIAAGMCAABlAgAAZwIAAGoCAABrAgAAbgIAAHACAAByAgAAcwIAAHUCAAB2AgAAdwIAAHgCAAB7AgAAfQIAAH4CAACBAgAAgwIAAIUCAACGAgAAiQIAAIoCAACLAgAAjAIAAJACAACTAgAAlQIAAJgCAACbAgAAnQIAAJ8CAAChAgAAogIAAKUCAACpAgAArgIAALACAACxAgAAswIAALYCAAC3AgAAuQIAALsCAAC/AgAAwQIAAMgCAADKAgAAzQIAAM8CAADQAgAA0QIAANECAADSAgAA1QIAANYCAADYAgAA3AIAAN8CAADgAgAA5AIAAOYCAADoAgAA6wIAAO4CAADwAgAA9AIAAPUCAAD3AgAA+wIAAPsCAAD8AgAA/AIAAPwCAAD8AgAA/AIAAPwCAAD8AgAA/AIAAPwCAAD8AgAA/AIAAPwCAAD8AgAA+gIAAPcCAAD1AgAA8gIAAPACAADuAgAA7QIAAOwCAADoAgAA5AIAAOMCAADhAgAA4QIAAOECAADhAgAA4AIAAOACAADeAgAA3gIAAN4CAADeAgAA3wIAAOMCAADmAgAA6AIAAOgCAADoAgAA6AIAAOkCAADpAgAA6wIAAO0CAADtAgAA7gIAAO4CAADuAgAA7gIAAO4CAADuAgAA7gIAAO4CAADuAgAA7gIAAO4CAADsAgAA6wIAAOkCAADmAgAA5AIAAOMCAADhAgAA4QIAAN0CAADZAgAA0gIAAM0CAADJAgAAyAIAAMYCAADGAgAAxgIAAMMCAADAAgAAvAIAALoCAAC4AgAAtwIAALcCAAC2AgAAswIAALICAACvAgAAqgIAAKQCAACbAgAAlgIAAJICAACMAgAAigIAAIYCAACEAgAAgwIAAIECAAB/AgAAewIAAHcCAABzAgAAawIAAGQCAABeAgAAWQIAAFYCAABSAgAATwIAAE4CAABMAgAASgIAAEkCAABIAgAARwIAAEUCAABDAgAAQAIAAD0CAAA5AgAAOAIAADgCAAA4AgAAOAIAADcCAAA3AgAANwIAADcCAAA0AgAAMwIAADICAAAwAgAALgIAACsCAAArAgAAKwIAACsCAAArAgAAKwIAACsCAAArAgAAKgIAACoCAAAoAgAAJAIAACMCAAAiAgAAIAIAACACAAAfAgAAHQIAABoCAAAZAgAAFwIAABcCAAAXAgAAFwIAABcCAAAYAgAAGQIAABwCAAAfAgAAJAIAACYCAAAoAgAAKgIAACoCAAArAgAALAIAAC4CAAAvAgAALwIAAC8CAAAvAgAALwIAAC8CAAAwAgAAMAIAADECAAAxAgAAMQIAADECAAAxAgAAMQIAADMCAAAzAgAANAIAADYCAAA2AgAANgIAADcCAAA4AgAAOQIAADsCAAA+AgAAPwIAAEICAABCAgAAQgIAAEICAABCAgAAQgIAAEICAABCAgAAQgIAAEMCAABDAgAAQwIAAEMCAABDAgAARgIAAEYCAABGAgAARgIAAEYCAABGAgAARgIAAEcCAABHAgAARwIAAEgCAABIAgAASQIAAEkCAABJAgAA"
+    }
+  },
+  "Projected3dROI": {
+    "_type": "glue.core.roi.Projected3dROI",
+    "projection_matrix": [
+      [
+        2.3766267040485096,
+        23.043581245474417,
+        4.3107729535978275e-19,
+        -2590.497289664962
+      ],
+      [
+        0.0036213727710077094,
+        -18.419422621187056,
+        -1.2649659260047421,
+        3154.461976926893
+      ],
+      [
+        -3.9259885057310073e-10,
+        1.996879251755663e-06,
+        -1.6723309566855719e-10,
+        -0.00025548701765478127
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "roi_2d": "NearestNeighborROI"
+  },
+  "Projected3dROI_0": {
+    "_type": "glue.core.roi.Projected3dROI",
+    "projection_matrix": [
+      [
+        2.3766267040485096,
+        23.043581245474417,
+        4.3107729535978275e-19,
+        -2590.497289664962
+      ],
+      [
+        0.0036213727710077094,
+        -18.419422621187056,
+        -1.2649659260047421,
+        3154.461976926893
+      ],
+      [
+        -3.9259885057310073e-10,
+        1.996879251755663e-06,
+        -1.6723309566855719e-10,
+        -0.00025548701765478127
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "roi_2d": "NearestNeighborROI_0"
+  },
+  "Projected3dROI_1": {
+    "_type": "glue.core.roi.Projected3dROI",
+    "projection_matrix": [
+      [
+        2.3788003001727858,
+        -4.61012045089156,
+        0.0,
+        1004.1242006965173
+      ],
+      [
+        0.0,
+        0.0,
+        -0.6290483076673153,
+        756.9113093347918
+      ],
+      [
+        7.859156968784271e-11,
+        1.9999238410790202e-06,
+        0.0,
+        -0.0002560031062554273
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "roi_2d": "PolygonalROI"
+  },
+  "Projected3dROI_2": {
+    "_type": "glue.core.roi.Projected3dROI",
+    "projection_matrix": [
+      [
+        2.3788003001727858,
+        -4.61012045089156,
+        0.0,
+        1004.1242006965173
+      ],
+      [
+        0.0,
+        0.0,
+        -0.6290483076673153,
+        756.9113093347918
+      ],
+      [
+        7.859156968784271e-11,
+        1.9999238410790202e-06,
+        0.0,
+        -0.0002560031062554273
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "roi_2d": "PolygonalROI_0"
+  },
+  "Projected3dROI_3": {
+    "_type": "glue.core.roi.Projected3dROI",
+    "projection_matrix": [
+      [
+        2.3766267040485096,
+        23.043581245474417,
+        4.3107729535978275e-19,
+        -2590.497289664962
+      ],
+      [
+        0.0036213727710077094,
+        -18.419422621187056,
+        -1.2649659260047421,
+        3154.461976926893
+      ],
+      [
+        -3.9259885057310073e-10,
+        1.996879251755663e-06,
+        -1.6723309566855719e-10,
+        -0.00025548701765478127
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "roi_2d": "PolygonalROI_1"
+  },
+  "RoiSubsetState3d": {
+    "_type": "glue.core.subset.RoiSubsetState3d",
+    "pretransform": null,
+    "roi": "Projected3dROI",
+    "xatt": "Cell number",
+    "yatt": "Accession number",
+    "zatt": "Abundance"
+  },
+  "RoiSubsetState3d_0": {
+    "_type": "glue.core.subset.RoiSubsetState3d",
+    "pretransform": null,
+    "roi": "Projected3dROI_0",
+    "xatt": "Cell number",
+    "yatt": "Accession number",
+    "zatt": "Abundance"
+  },
+  "RoiSubsetState3d_1": {
+    "_type": "glue.core.subset.RoiSubsetState3d",
+    "pretransform": null,
+    "roi": "Projected3dROI_1",
+    "xatt": "Cell number",
+    "yatt": "Accession number",
+    "zatt": "Abundance"
+  },
+  "RoiSubsetState3d_2": {
+    "_type": "glue.core.subset.RoiSubsetState3d",
+    "pretransform": null,
+    "roi": "Projected3dROI_2",
+    "xatt": "Cell number",
+    "yatt": "Accession number",
+    "zatt": "Abundance"
+  },
+  "RoiSubsetState3d_3": {
+    "_type": "glue.core.subset.RoiSubsetState3d",
+    "pretransform": null,
+    "roi": "Projected3dROI_3",
+    "xatt": "Cell number",
+    "yatt": "Accession number",
+    "zatt": "Abundance"
+  },
+  "ScatterLayerState": {
+    "_type": "glue_vispy_viewers.scatter.layer_state.ScatterLayerState",
+    "values": {
+      "alpha": 0.8,
+      "cmap": "ListedColormap",
+      "cmap_attribute": "Cell number",
+      "cmap_limits_cache": "dict_5",
+      "cmap_vmax": 330.0,
+      "cmap_vmin": 1.0,
+      "color": "st__#595959",
+      "color_mode": "st__Linear",
+      "layer": "Log_10_output_400_proteins_in_more_than_100_cells:Sheet1",
+      "size": 3,
+      "size_attribute": "Abundance",
+      "size_limits_cache": "dict_6",
+      "size_mode": "st__Fixed",
+      "size_scaling": 0.1,
+      "size_vmax": 253936.0,
+      "size_vmin": 6.0,
+      "vector_arrowhead": null,
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_attribute": "Accession number",
+      "vy_attribute": "Accession number",
+      "vz_attribute": "Accession number",
+      "xerr_attribute": "Accession number",
+      "xerr_visible": false,
+      "yerr_attribute": "Accession number",
+      "yerr_visible": false,
+      "zerr_attribute": "Accession number",
+      "zerr_visible": false,
+      "zorder": 2
+    }
+  },
+  "ScatterLayerState_0": {
+    "_type": "glue_vispy_viewers.scatter.layer_state.ScatterLayerState",
+    "values": {
+      "alpha": 0.43,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_attribute": "Cell number",
+      "cmap_limits_cache": "dict_5",
+      "cmap_vmax": 330.0,
+      "cmap_vmin": 1.0,
+      "color": "st__#e31a1c",
+      "color_mode": "st__Linear",
+      "layer": "Subset 1_0",
+      "size": 7,
+      "size_attribute": "Accession",
+      "size_limits_cache": "dict_6",
+      "size_mode": "st__Fixed",
+      "size_scaling": 0.1,
+      "size_vmax": 434.5,
+      "size_vmin": -0.5,
+      "vector_arrowhead": null,
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": false,
+      "vx_attribute": "Accession number",
+      "vy_attribute": "Accession number",
+      "vz_attribute": "Accession number",
+      "xerr_attribute": "Accession number",
+      "xerr_visible": false,
+      "yerr_attribute": "Accession number",
+      "yerr_visible": false,
+      "zerr_attribute": "Accession number",
+      "zerr_visible": false,
+      "zorder": 3
+    }
+  },
+  "ScatterLayerState_1": {
+    "_type": "glue_vispy_viewers.scatter.layer_state.ScatterLayerState",
+    "values": {
+      "alpha": 0.5,
+      "cmap": "LinearSegmentedColormap_0",
+      "cmap_attribute": "Accession",
+      "cmap_limits_cache": "dict_5",
+      "cmap_vmax": 434.5,
+      "cmap_vmin": -0.5,
+      "color": "st__#33a02c",
+      "color_mode": "st__Fixed",
+      "layer": "Subset 2_0",
+      "size": 7,
+      "size_attribute": "Accession",
+      "size_limits_cache": "dict_6",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 434.5,
+      "size_vmin": -0.5,
+      "vector_arrowhead": null,
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": false,
+      "vx_attribute": "Accession number",
+      "vy_attribute": "Accession number",
+      "vz_attribute": "Accession number",
+      "xerr_attribute": "Accession number",
+      "xerr_visible": false,
+      "yerr_attribute": "Accession number",
+      "yerr_visible": false,
+      "zerr_attribute": "Accession number",
+      "zerr_visible": false,
+      "zorder": 4
+    }
+  },
+  "ScatterLayerState_2": {
+    "_type": "glue_vispy_viewers.scatter.layer_state.ScatterLayerState",
+    "values": {
+      "alpha": 0.5,
+      "cmap": "LinearSegmentedColormap_0",
+      "cmap_attribute": "Accession",
+      "cmap_limits_cache": "dict_5",
+      "cmap_vmax": 434.5,
+      "cmap_vmin": -0.5,
+      "color": "st__#1f78b4",
+      "color_mode": "st__Fixed",
+      "layer": "Subset 3_0",
+      "size": 7,
+      "size_attribute": "Accession",
+      "size_limits_cache": "dict_6",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 434.5,
+      "size_vmin": -0.5,
+      "vector_arrowhead": null,
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": false,
+      "vx_attribute": "Accession number",
+      "vy_attribute": "Accession number",
+      "vz_attribute": "Accession number",
+      "xerr_attribute": "Accession number",
+      "xerr_visible": false,
+      "yerr_attribute": "Accession number",
+      "yerr_visible": false,
+      "zerr_attribute": "Accession number",
+      "zerr_visible": false,
+      "zorder": 5
+    }
+  },
+  "ScatterLayerState_3": {
+    "_type": "glue_vispy_viewers.scatter.layer_state.ScatterLayerState",
+    "values": {
+      "alpha": 0.5,
+      "cmap": "LinearSegmentedColormap_0",
+      "cmap_attribute": "Accession",
+      "cmap_limits_cache": "dict_5",
+      "cmap_vmax": 434.5,
+      "cmap_vmin": -0.5,
+      "color": "st__#8c510a",
+      "color_mode": "st__Fixed",
+      "layer": "Subset 4_0",
+      "size": 7,
+      "size_attribute": "Accession",
+      "size_limits_cache": "dict_6",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 434.5,
+      "size_vmin": -0.5,
+      "vector_arrowhead": null,
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": false,
+      "vx_attribute": "Accession number",
+      "vy_attribute": "Accession number",
+      "vz_attribute": "Accession number",
+      "xerr_attribute": "Accession number",
+      "xerr_visible": false,
+      "yerr_attribute": "Accession number",
+      "yerr_visible": false,
+      "zerr_attribute": "Accession number",
+      "zerr_visible": false,
+      "zorder": 6
+    }
+  },
+  "Session": {
+    "_type": "glue.core.session.Session"
+  },
+  "Subset 1": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "Subset 1",
+    "state": "RoiSubsetState3d",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.43,
+      "color": "#e31a1c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7
+    },
+    "subsets": [
+      "Subset 1_0"
+    ]
+  },
+  "Subset 1_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 1",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.43,
+      "color": "#e31a1c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7
+    }
+  },
+  "Subset 2": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "Subset 2",
+    "state": "RoiSubsetState3d_0",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#33a02c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7
+    },
+    "subsets": [
+      "Subset 2_0"
+    ]
+  },
+  "Subset 2_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 2",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#33a02c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7
+    }
+  },
+  "Subset 3": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "Subset 3",
+    "state": "XorState",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#1f78b4",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7
+    },
+    "subsets": [
+      "Subset 3_0"
+    ]
+  },
+  "Subset 3_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 3",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#1f78b4",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7
+    }
+  },
+  "Subset 4": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "Subset 4",
+    "state": "RoiSubsetState3d_1",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#8c510a",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7
+    },
+    "subsets": [
+      "Subset 4_0"
+    ]
+  },
+  "Subset 4_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 4",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#8c510a",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7
+    }
+  },
+  "VispyScatterViewer": {
+    "_protocol": 1,
+    "_type": "glue_vispy_viewers.scatter.scatter_viewer.VispyScatterViewer",
+    "layers": [
+      {
+        "_type": "glue_vispy_viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState"
+      },
+      {
+        "_type": "glue_vispy_viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_0"
+      },
+      {
+        "_type": "glue_vispy_viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_1"
+      },
+      {
+        "_type": "glue_vispy_viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_2"
+      },
+      {
+        "_type": "glue_vispy_viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_3"
+      }
+    ],
+    "pos": [
+      0,
+      0
+    ],
+    "session": "Session",
+    "size": [
+      1601,
+      937
+    ],
+    "state": {
+      "values": {
+        "clip_data": true,
+        "layers": "CallbackList",
+        "limits_cache": "dict",
+        "line_width": 1.0,
+        "native_aspect": false,
+        "perspective_view": false,
+        "visible_axes": true,
+        "x_att": "Cell number",
+        "x_max": 330,
+        "x_min": 1,
+        "x_stretch": 1.481494351558831,
+        "y_att": "Accession number",
+        "y_max": 330.0,
+        "y_min": 1,
+        "y_stretch": 1.0,
+        "z_att": "Log abundance",
+        "z_max": 5.404724274300477,
+        "z_min": 0.7781512503836439,
+        "z_stretch": 1.1835864919618604
+      }
+    }
+  },
+  "XorState": {
+    "_type": "glue.core.subset.XorState",
+    "state1": "RoiSubsetState3d_2",
+    "state2": "RoiSubsetState3d_3"
+  },
+  "__main__": {
+    "_type": "glue.app.qt.application.GlueApplication",
+    "data": "DataCollection",
+    "plugins": [
+      "glue.viewers.histogram.qt",
+      "glue.core.data_exporters",
+      "glue.viewers.scatter.qt",
+      "glue.viewers.table.qt",
+      "glue.plugins.tools",
+      "glue_vispy_viewers.scatter",
+      "glue.plugins.wcs_autolinking",
+      "glue.io.qt.directory_importer",
+      "glue.plugins.export_d3po",
+      "glue.io.formats.fits",
+      "glue.viewers.profile.qt",
+      "glue.viewers.image.qt",
+      "glue.plugins.dendro_viewer.qt",
+      "glue.plugins.tools.pv_slicer.qt",
+      "glue.plugins.coordinate_helpers"
+    ],
+    "session": "Session",
+    "tab_names": [
+      "Tab 1"
+    ],
+    "viewers": [
+      [
+        "VispyScatterViewer"
+      ]
+    ]
+  },
+  "dict": {
+    "_type": "builtins.dict",
+    "contents": {
+      "Abundance": "dict_0",
+      "Accession number": "dict_1",
+      "Cell": "dict_2",
+      "Cell number": "dict_3",
+      "Log abundance": "dict_4"
+    }
+  },
+  "dict_0": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 6.0,
+      "st__upper": 253936.0
+    }
+  },
+  "dict_1": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 1,
+      "st__upper": 330.0
+    }
+  },
+  "dict_10": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 0.5,
+      "st__upper": 5796.5
+    }
+  },
+  "dict_11": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 5796.5
+    }
+  },
+  "dict_12": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 434.5
+    }
+  },
+  "dict_13": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 301.5
+    }
+  },
+  "dict_14": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 434.5
+    }
+  },
+  "dict_15": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 301.5
+    }
+  },
+  "dict_16": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 434.5
+    }
+  },
+  "dict_17": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 301.5
+    }
+  },
+  "dict_18": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 0.5,
+      "st__upper": 5796.5
+    }
+  },
+  "dict_19": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 1.0,
+      "st__upper": 330.0
+    }
+  },
+  "dict_2": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": NaN,
+      "st__upper": NaN
+    }
+  },
+  "dict_20": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 1,
+      "st__upper": 179
+    }
+  },
+  "dict_21": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 1,
+      "st__upper": 330
+    }
+  },
+  "dict_22": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 50.0,
+      "st__upper": 150.0
+    }
+  },
+  "dict_23": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 1,
+      "st__upper": 179
+    }
+  },
+  "dict_24": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 0.0,
+      "st__upper": 5.404724274300477
+    }
+  },
+  "dict_25": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 0.7781512503836436,
+      "st__upper": 5.359873410332742
+    }
+  },
+  "dict_26": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 0.7781512503836436,
+      "st__upper": 4.996082419169424
+    }
+  },
+  "dict_27": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 6.0,
+      "st__upper": 253936.0
+    }
+  },
+  "dict_28": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 434.5
+    }
+  },
+  "dict_29": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 0.5,
+      "st__upper": 5796.5
+    }
+  },
+  "dict_3": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 1,
+      "st__upper": 330
+    }
+  },
+  "dict_30": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 5796.5
+    }
+  },
+  "dict_31": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 434.5
+    }
+  },
+  "dict_32": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 301.5
+    }
+  },
+  "dict_33": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 434.5
+    }
+  },
+  "dict_34": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 301.5
+    }
+  },
+  "dict_35": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 434.5
+    }
+  },
+  "dict_36": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 301.5
+    }
+  },
+  "dict_37": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 0.5,
+      "st__upper": 5796.5
+    }
+  },
+  "dict_38": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 1,
+      "st__upper": 330
+    }
+  },
+  "dict_4": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 0.7781512503836439,
+      "st__upper": 5.404724274300477
+    }
+  },
+  "dict_5": {
+    "_type": "builtins.dict",
+    "contents": {
+      "Abundance": "dict_7",
+      "Abundance_0": "dict_8",
+      "Accession": "dict_9",
+      "Accession_0": "dict_10",
+      "Accession_1": "dict_11",
+      "Accession_2": "dict_12",
+      "Accession_3": "dict_13",
+      "Accession_4": "dict_14",
+      "Accession_5": "dict_15",
+      "Accession_6": "dict_16",
+      "Accession_7": "dict_17",
+      "Accession_8": "dict_18",
+      "Cell number": "dict_19",
+      "Cell number_0": "dict_20",
+      "Cell number_1": "dict_21",
+      "Cell number_2": "dict_22",
+      "Cell number_3": "dict_23",
+      "Log abundance": "dict_24",
+      "Log abundance_0": "dict_25",
+      "Log10": "dict_26"
+    }
+  },
+  "dict_6": {
+    "_type": "builtins.dict",
+    "contents": {
+      "Abundance": "dict_27",
+      "Accession": "dict_28",
+      "Accession_0": "dict_29",
+      "Accession_1": "dict_30",
+      "Accession_2": "dict_31",
+      "Accession_3": "dict_32",
+      "Accession_4": "dict_33",
+      "Accession_5": "dict_34",
+      "Accession_6": "dict_35",
+      "Accession_7": "dict_36",
+      "Accession_8": "dict_37",
+      "Cell number": "dict_38"
+    }
+  },
+  "dict_7": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 6.0,
+      "st__upper": 253936.0
+    }
+  },
+  "dict_8": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 6.0,
+      "st__upper": 229020.0
+    }
+  },
+  "dict_9": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 434.5
+    }
+  }
+}

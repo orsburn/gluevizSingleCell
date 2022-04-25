@@ -1,0 +1,372 @@
+{
+  "120cells_clustered_kmeans": {
+    "_key_joins": [],
+    "_protocol": 5,
+    "_type": "glue.core.data.Data",
+    "components": [
+      [
+        "Pixel Axis 0 [x]",
+        "CoordinateComponent"
+      ],
+      [
+        "Accession",
+        "CategoricalComponent"
+      ],
+      [
+        "Accession number",
+        "Component"
+      ],
+      [
+        "Cell",
+        "CategoricalComponent_0"
+      ],
+      [
+        "Cell number",
+        "Component_0"
+      ],
+      [
+        "Abundance",
+        "Component_1"
+      ]
+    ],
+    "label": "120cells_clustered_kmeans",
+    "meta": {
+      "_type": "collections.OrderedDict",
+      "contents": {}
+    },
+    "primary_owner": [
+      "Pixel Axis 0 [x]",
+      "Accession",
+      "Accession number",
+      "Cell",
+      "Cell number",
+      "Abundance"
+    ],
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.8,
+      "color": "#595959",
+      "linestyle": "solid",
+      "linewidth": 1,
+      "marker": "o",
+      "markersize": 3,
+      "preferred_cmap": null
+    },
+    "subsets": [],
+    "uuid": "38a0e4f4-22c2-4846-9962-b7a00b3df392"
+  },
+  "Abundance": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Abundance"
+  },
+  "Abundance_0": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Abundance"
+  },
+  "Accession": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession"
+  },
+  "Accession number": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession number"
+  },
+  "Accession_0": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Accession"
+  },
+  "CallbackList": {
+    "_type": "echo.containers.CallbackList",
+    "values": [
+      "ScatterLayerState"
+    ]
+  },
+  "CategoricalComponent": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 1
+  },
+  "CategoricalComponent_0": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 3
+  },
+  "Cell": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Cell"
+  },
+  "Cell number": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Cell number"
+  },
+  "Cell number_0": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Cell number"
+  },
+  "Component": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 2
+  },
+  "Component_0": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 4
+  },
+  "Component_1": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 5
+  },
+  "CoordinateComponent": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 0,
+    "world": false
+  },
+  "DataCollection": {
+    "_protocol": 4,
+    "_type": "glue.core.data_collection.DataCollection",
+    "cids": [
+      "Pixel Axis 0 [x]",
+      "Accession",
+      "Accession number",
+      "Cell",
+      "Cell number",
+      "Abundance"
+    ],
+    "components": [
+      "CoordinateComponent",
+      "CategoricalComponent",
+      "Component",
+      "CategoricalComponent_0",
+      "Component_0",
+      "Component_1"
+    ],
+    "data": [
+      "120cells_clustered_kmeans"
+    ],
+    "groups": [],
+    "links": [],
+    "subset_group_count": 4
+  },
+  "ListedColormap": {
+    "_type": "matplotlib.colors.ListedColormap",
+    "cmap": "magma"
+  },
+  "LoadLog": {
+    "_protocol": 2,
+    "_type": "glue.core.data_factories.helpers.LoadLog",
+    "factory": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.data_factories.helpers.auto_data"
+    },
+    "force_coords": false,
+    "kwargs": [
+      []
+    ],
+    "path": "120cells_clustered_kmeans.csv"
+  },
+  "Pixel Axis 0 [x]": {
+    "_type": "glue.core.component_id.PixelComponentID",
+    "axis": 0,
+    "label": "Pixel Axis 0 [x]"
+  },
+  "ScatterLayerState": {
+    "_type": "glue_vispy_viewers.scatter.layer_state.ScatterLayerState",
+    "values": {
+      "alpha": 0.8,
+      "cmap": "ListedColormap",
+      "cmap_attribute": "Accession",
+      "cmap_limits_cache": "dict_3",
+      "cmap_vmax": 8686.5,
+      "cmap_vmin": 0.5,
+      "color": "st__#595959",
+      "color_mode": "st__Linear",
+      "layer": "120cells_clustered_kmeans",
+      "size": 3,
+      "size_attribute": "Accession",
+      "size_limits_cache": "dict_4",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 8686.5,
+      "size_vmin": 0.5,
+      "vector_arrowhead": null,
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_attribute": "Accession number",
+      "vy_attribute": "Accession number",
+      "vz_attribute": "Accession number",
+      "xerr_attribute": "Accession number",
+      "xerr_visible": false,
+      "yerr_attribute": "Accession number",
+      "yerr_visible": false,
+      "zerr_attribute": "Accession number",
+      "zerr_visible": false,
+      "zorder": 1
+    }
+  },
+  "Session": {
+    "_type": "glue.core.session.Session"
+  },
+  "VispyScatterViewer": {
+    "_protocol": 1,
+    "_type": "glue_vispy_viewers.scatter.scatter_viewer.VispyScatterViewer",
+    "layers": [
+      {
+        "_type": "glue_vispy_viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState"
+      }
+    ],
+    "pos": [
+      0,
+      0
+    ],
+    "session": "Session",
+    "size": [
+      1254,
+      868
+    ],
+    "state": {
+      "values": {
+        "clip_data": true,
+        "layers": "CallbackList",
+        "limits_cache": "dict",
+        "line_width": 1.0,
+        "native_aspect": false,
+        "perspective_view": false,
+        "visible_axes": true,
+        "x_att": "Accession number",
+        "x_max": 8687.0,
+        "x_min": 1.0,
+        "x_stretch": 1.0,
+        "y_att": "Cell number",
+        "y_max": 120.0,
+        "y_min": 1.0,
+        "y_stretch": 1.0,
+        "z_att": "Abundance",
+        "z_max": 9.955353371,
+        "z_min": 0.0,
+        "z_stretch": 1.0
+      }
+    }
+  },
+  "__main__": {
+    "_type": "glue.app.qt.application.GlueApplication",
+    "data": "DataCollection",
+    "plugins": [
+      "glue.viewers.histogram.qt",
+      "glue.core.data_exporters",
+      "glue.viewers.scatter.qt",
+      "glue.viewers.table.qt",
+      "glue.plugins.tools",
+      "glue_vispy_viewers.scatter",
+      "glue.plugins.wcs_autolinking",
+      "glue.io.qt.directory_importer",
+      "glue.plugins.export_d3po",
+      "glue.io.formats.fits",
+      "glue.viewers.profile.qt",
+      "glue.viewers.image.qt",
+      "glue.plugins.dendro_viewer.qt",
+      "glue.plugins.tools.pv_slicer.qt",
+      "glue.plugins.coordinate_helpers"
+    ],
+    "session": "Session",
+    "tab_names": [
+      "Tab 1"
+    ],
+    "viewers": [
+      [
+        "VispyScatterViewer"
+      ]
+    ]
+  },
+  "dict": {
+    "_type": "builtins.dict",
+    "contents": {
+      "Abundance": "dict_2",
+      "Accession number": "dict_0",
+      "Cell number": "dict_1"
+    }
+  },
+  "dict_0": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 1.0,
+      "st__upper": 8687.0
+    }
+  },
+  "dict_1": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 1,
+      "st__upper": 120
+    }
+  },
+  "dict_10": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 0.5,
+      "st__upper": 8686.5
+    }
+  },
+  "dict_2": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 0.0,
+      "st__upper": 9.955353371
+    }
+  },
+  "dict_3": {
+    "_type": "builtins.dict",
+    "contents": {
+      "Accession": "dict_7",
+      "Accession_0": "dict_5",
+      "Cell number_0": "dict_6"
+    }
+  },
+  "dict_4": {
+    "_type": "builtins.dict",
+    "contents": {
+      "Abundance_0": "dict_9",
+      "Accession": "dict_10",
+      "Accession_0": "dict_8"
+    }
+  },
+  "dict_5": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 434.5
+    }
+  },
+  "dict_6": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 1.0,
+      "st__upper": 330.0
+    }
+  },
+  "dict_7": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 0.5,
+      "st__upper": 8686.5
+    }
+  },
+  "dict_8": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.5,
+      "st__upper": 434.5
+    }
+  },
+  "dict_9": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 6.0,
+      "st__upper": 253936.0
+    }
+  }
+}
