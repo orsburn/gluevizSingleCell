@@ -7,3 +7,7 @@ The gif above was recorded within the .glu session provided.
 The singlecell Seq data is from Xue and Zhao et al., 2020; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7308074/
 The gif below was taken from the .glu session uploaded for single cell seq. 
 ![SingleCellRNASeq](https://user-images.githubusercontent.com/39571544/165126145-83f57748-eef4-4791-9dde-af9e46dd1978.gif)
+
+More information on GlueViz can be found at (www.glueviz.org) and https://github.com/glue-viz
+3D models were made using Glue Vispy viewers: https://github.com/glue-viz/glue-vispy-viewers
+
